@@ -1,0 +1,13 @@
+---
+users:
+  - name: user1
+    password: passwd1
+  - name: user2
+    password: passwd2
+  - name: user3
+    password: passwd3
+  - name: user4
+    password: passwd4
+# vars file for homework
+
+

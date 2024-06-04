@@ -1,0 +1,73 @@
+итого 256
+drwxr-xr-x  24 root root              4096 фев  3 21:09 .
+drwxr-xr-x  17 root root              4096 фев  3 21:26 ..
+lrwxrwxrwx   1 root root                12 июн 10  2020 alert -> syslog/alert
+-rw-r--r--   1 root root                 0 ноя 18  2021 alterator-net-iptables
+drwx------   2 root root              4096 фев  3 21:43 altwks1
+drwx------   2 root root              4096 фев  3 21:17 altwks2
+drwx------   2 root root              4096 авг 30  2022 audit
+drwxr-x---   2 root adm               4096 фев  3 16:22 auth
+lrwxrwxrwx   1 root root                11 июн 10  2020 boot.log -> syslog/boot
+-rw-rw----   1 root utmp                 0 мар  7  2022 btmp
+drwxrwxr-t   2 root _chrony           4096 мая 17  2021 chrony
+drwxr-x---   2 root adm               4096 фев  3 16:22 cron
+drwx------   2 root lp                4096 мар  7  2022 cups
+drwxr-x---   2 root adm               4096 фев  3 16:22 daemons
+drwxr-x---   2 root adm               4096 фев  3 16:22 ftp
+drwxr-sr-x+  3 root systemd-journal   4096 мар  7  2022 journal
+-rw-r--r--   1 root root                 0 мар  7  2022 journald
+drwxr-x---   2 root adm               4096 фев  3 16:22 kernel
+-rw-rw-r--   1 root utmp            146584 ноя  3  2022 lastlog
+drwxrwxr-x   2 root _ldm              4096 фев  3 20:40 lightdm
+drwxr-x---   2 root adm               4096 фев  3 16:22 lpr
+drwxr-x---   2 root adm               4096 фев  3 16:22 mail
+lrwxrwxrwx   1 root root                 8 июн 10  2020 maillog -> mail/all
+lrwxrwxrwx   1 root root                15 июн 10  2020 messages -> syslog/messages
+drwxr-x---   2 root adm               4096 фев  3 16:22 news
+drwx------   2 root root              4096 мар  7  2022 ppp
+drwx------   2 root root              4096 мар  7  2022 private
+-rw-r--r--   1 root root              1040 апр 28  2022 README
+-rw-r--r--   1 root root             66532 фев  3 17:29 rpmpkgs
+drwx------   3 root root              4096 сен 12  2022 samba
+lrwxrwxrwx   1 root root                11 июн 10  2020 secure -> auth/secure
+lrwxrwxrwx   1 root root                14 июн 10  2020 spooler -> syslog/spooler
+drwxrwx---   2 root _sssd             4096 окт 29  2022 sssd
+drwxr-x---   2 root adm               4096 фев  3 16:22 syslog
+drwxr-x---   2 root adm               4096 фев  3 16:22 user
+drwxr-x---   2 root adm               4096 фев  3 16:22 uucp
+-rw-rw-r--   1 root utmp             22656 фев  3 20:41 wtmp
+-rw-r--r--   1 root root             24009 фев  3 20:40 Xorg.0.log
+-rw-r--r--   1 root root             24778 фев  3 18:07 Xorg.0.log.old
+итого 108
+drwxr-x---  2 root adm   4096 фев  3 16:22 .
+drwxr-xr-x 24 root root  4096 фев  3 21:09 ..
+-rw-r-----  1 root adm      0 фев  3 16:22 alert
+-rw-r-----  1 root adm      0 фев  3 16:22 boot
+-rw-r-----  1 root adm  97101 фев  3 21:04 messages
+-rw-r-----  1 root adm      0 фев  3 16:22 spooler
+-rw-r-----  1 root adm      0 фев  3 16:22 sudo
+/var/log/altwks1:
+итого 32
+drwx------  2 root root 4096 фев  3 21:43 .
+drwxr-xr-x 24 root root 4096 фев  3 21:09 ..
+-rw-------  1 root root  676 фев  3 21:24 dbus-daemon.log
+-rw-------  1 root root  334 фев  3 21:24 gvfsd.log
+-rw-------  1 root root  207 фев  3 21:37 mate-screensave.log
+-rw-------  1 root root 3264 фев  3 21:45 nmbd.log
+-rw-------  1 root root  308 фев  3 21:43 su.log
+-rw-------  1 root root  701 фев  3 21:25 systemd.log
+/var/log/altwks2:
+итого 20
+drwx------  2 root root 4096 фев  3 21:17 .
+drwxr-xr-x 24 root root 4096 фев  3 21:09 ..
+-rw-------  1 root root  103 фев  3 21:17 mate-screensave.log
+-rw-------  1 root root 1269 фев  3 21:31 rsyslogd.log
+-rw-------  1 root root  983 фев  3 21:36 systemd.log
+Feb  3 21:11:41 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Feb  3 21:11:41 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Feb  3 21:11:41 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Feb  3 21:11:41 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Feb  3 21:36:20 altwks2 systemd[1]: Stopping Vixie Cron Daemon...
+Feb  3 21:36:20 altwks2 systemd[1]: crond.service: Deactivated successfully.
+Feb  3 21:36:20 altwks2 systemd[1]: Stopped Vixie Cron Daemon.
+Feb  3 21:36:20 altwks2 systemd[1]: Started Vixie Cron Daemon.

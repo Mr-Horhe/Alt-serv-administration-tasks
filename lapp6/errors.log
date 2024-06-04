@@ -1,0 +1,28 @@
+фев 01 18:59:10 host-112.courses.alt kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+фев 01 18:59:10 host-112.courses.alt kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+фев 01 18:59:10 host-112.courses.alt systemd-udevd[2522]: /lib/udev/rules.d/50-pcscd-asedriveiiie.rules:9 Unknown group 'pcscd', ignoring
+фев 01 18:59:10 host-112.courses.alt systemd-udevd[2522]: /lib/udev/rules.d/50-pcscd-asedriveiiie.rules:10 Unknown group 'pcscd', ignoring
+фев 01 18:59:10 host-112.courses.alt systemd-udevd[2522]: /lib/udev/rules.d/50-udev-default.rules:42 Unknown group 'sgx', ignoring
+фев 01 18:59:10 host-112.courses.alt systemd-udevd[2522]: /lib/udev/rules.d/92_pcscd_acsccid.rules:13 Unknown group 'scard', ignoring
+фев 01 18:59:10 host-112.courses.alt systemd-udevd[2532]: vboxuser: /lib/udev/rules.d/60-vboxadd.rules:4 Only network interfaces can be renamed, ignoring NAME="vboxuser".
+фев 01 18:59:10 host-112.courses.alt systemd-udevd[2535]: vboxguest: /lib/udev/rules.d/60-vboxadd.rules:3 Only network interfaces can be renamed, ignoring NAME="vboxguest".
+фев 01 18:59:15 host-112.courses.alt nmbd[2964]: [2024/02/01 18:59:15.081724,  0] ../../source3/nmbd/nmbd.c:901(main)
+фев 01 18:59:15 host-112.courses.alt nmbd[2964]:   nmbd version 4.16.7 started.
+фев 01 18:59:15 host-112.courses.alt nmbd[2964]:   Copyright Andrew Tridgell and the Samba Team 1992-2022
+фев 01 18:59:15 host-112.courses.alt smbd[2989]: [2024/02/01 18:59:15.177726,  0] ../../source3/smbd/server.c:1741(main)
+фев 01 18:59:15 host-112.courses.alt smbd[2989]:   smbd version 4.16.7 started.
+фев 01 18:59:15 host-112.courses.alt smbd[2989]:   Copyright Andrew Tridgell and the Samba Team 1992-2022
+фев 01 18:59:17 host-112.courses.alt lightdm[2888]: gkr-pam: unable to locate daemon control file
+фев 01 18:59:18 host-112.courses.alt mate-session[3019]: GLib-GObject-CRITICAL: object GsmAutostartApp 0x564ea15c3240 finalized while still in-construction
+фев 01 18:59:18 host-112.courses.alt mate-session[3019]: GLib-GObject-CRITICAL: Custom constructor for class GsmAutostartApp returned NULL (which is invalid). Please use GInitable instead.
+фев 01 18:59:18 host-112.courses.alt mate-session[3019]: GLib-GObject-CRITICAL: object GsmAutostartApp 0x564ea15c3300 finalized while still in-construction
+фев 01 18:59:18 host-112.courses.alt mate-session[3019]: GLib-GObject-CRITICAL: Custom constructor for class GsmAutostartApp returned NULL (which is invalid). Please use GInitable instead.
+фев 01 18:59:18 host-112.courses.alt mate-session[3019]: GLib-GObject-CRITICAL: object GsmAutostartApp 0x564ea15c3480 finalized while still in-construction
+фев 01 18:59:18 host-112.courses.alt mate-session[3019]: GLib-GObject-CRITICAL: Custom constructor for class GsmAutostartApp returned NULL (which is invalid). Please use GInitable instead.
+фев 01 18:59:36 host-112.courses.alt pulseaudio[3011]: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+фев 01 18:59:38 host-112.courses.alt nmbd[2988]: [2024/02/01 18:59:38.379148,  0] ../../source3/nmbd/nmbd_become_lmb.c:398(become_local_master_stage2)
+фев 01 18:59:38 host-112.courses.alt nmbd[2988]:   *****
+фев 01 18:59:38 host-112.courses.alt nmbd[2988]: 
+фев 01 18:59:38 host-112.courses.alt nmbd[2988]:   Samba name server HOST-112 is now a local master browser for workgroup SAMBA on subnet 10.0.2.15
+фев 01 18:59:38 host-112.courses.alt nmbd[2988]: 
+фев 01 18:59:38 host-112.courses.alt nmbd[2988]:   *****

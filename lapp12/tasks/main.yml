@@ -1,0 +1,25 @@
+---
+#start
+    - name: Установка пакa xrdp
+      apt_rpm:
+        package: "xrdp"
+        state: present
+        update_cache: yes
+
+    - name: Запуск службы xrdp
+      systemd:
+        name: "xrdp"
+        enabled: yes
+        state: restarted
+        masked: no
+
+    - name: Создание польхователей
+      user:
+        name: "{{ item.name }}"
+        password: "{{ item.password | password_hash('sha512') }}"
+      loop: "{{ users }}"
+
+    - name: Добавление пользователя в группу tsusers
+      shell: "gpasswd -a '{{ item.name }}' tsusers"
+      loop: "{{ users }}"
+...

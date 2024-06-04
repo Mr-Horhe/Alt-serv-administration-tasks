@@ -1,0 +1,152 @@
+итого 316
+drwxr-xr-x  22 root root              4096 фев  3 20:39 .
+drwxr-xr-x  17 root root              4096 мар  7  2022 ..
+lrwxrwxrwx   1 root root                12 июн 10  2020 alert -> syslog/alert
+-rw-r--r--   1 root root                 0 ноя 18  2021 alterator-net-iptables
+drwx------   2 root root              4096 авг 30  2022 audit
+drwxr-x---   2 root adm               4096 фев  3 16:21 auth
+lrwxrwxrwx   1 root root                11 июн 10  2020 boot.log -> syslog/boot
+-rw-rw----   1 root utmp              1536 фев  3 15:54 btmp
+drwxrwxr-t   2 root _chrony           4096 мая 17  2021 chrony
+drwxr-x---   2 root adm               4096 фев  3 16:21 cron
+drwx------   2 root lp                4096 мар  7  2022 cups
+drwxr-x---   2 root adm               4096 фев  3 16:21 daemons
+drwxr-x---   2 root adm               4096 фев  3 16:21 ftp
+drwxr-sr-x+  3 root systemd-journal   4096 мар  7  2022 journal
+-rw-r--r--   1 root root                 0 мар  7  2022 journald
+drwxr-x---   2 root adm               4096 фев  3 16:21 kernel
+-rw-rw-r--   1 root utmp            147460 янв  7 18:10 lastlog
+drwxrwxr-x   2 root _ldm              4096 фев  3 20:39 lightdm
+drwxr-x---   2 root adm               4096 фев  3 16:21 lpr
+drwxr-x---   2 root adm               4096 фев  3 16:21 mail
+lrwxrwxrwx   1 root root                 8 июн 10  2020 maillog -> mail/all
+lrwxrwxrwx   1 root root                15 июн 10  2020 messages -> syslog/messages
+drwxr-x---   2 root adm               4096 фев  3 16:21 news
+drwx------   2 root root              4096 мар  7  2022 ppp
+drwx------   2 root root              4096 мар  7  2022 private
+-rw-r--r--   1 root root              1040 апр 28  2022 README
+-rw-r--r--   1 root root             66500 фев  3 16:59 rpmpkgs
+drwx------   3 root root              4096 дек 26 18:20 samba
+lrwxrwxrwx   1 root root                11 июн 10  2020 secure -> auth/secure
+lrwxrwxrwx   1 root root                14 июн 10  2020 spooler -> syslog/spooler
+drwxrwx---   2 root _sssd             4096 окт 29  2022 sssd
+drwxr-x---   2 root adm               4096 фев  3 16:21 syslog
+drwxr-x---   2 root adm               4096 фев  3 16:21 user
+drwxr-x---   2 root adm               4096 фев  3 16:21 uucp
+-rw-rw-r--   1 root utmp             83328 фев  3 20:42 wtmp
+-rw-r--r--   1 root root             24009 фев  3 20:39 Xorg.0.log
+-rw-r--r--   1 root root             24778 фев  3 18:06 Xorg.0.log.old
+итого 2104
+drwxr-x---  2 root adm     4096 фев  3 16:21 .
+drwxr-xr-x 22 root root    4096 фев  3 20:39 ..
+-rw-r-----  1 root adm        0 фев  3 16:21 alert
+-rw-r-----  1 root adm        0 фев  3 16:21 boot
+-rw-r-----  1 root adm  2144022 фев  3 21:19 messages
+-rw-r-----  1 root adm        0 фев  3 16:21 spooler
+-rw-r-----  1 root adm        0 фев  3 16:21 sudo
+Feb  3 17:01:02 altwks1 crond[26582]: (root) CMD (run-parts /etc/cron.hourly)
+Mar  7 15:05:29 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Mar  7 15:05:29 altwks1 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Mar  7 16:01:02 altwks1 audit[2994]: USER_AUTH pid=2994 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 16:01:02 altwks1 kernel: audit: type=1100 audit(1646658062.028:97): pid=2994 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 16:01:02 altwks1 audit[2994]: USER_ACCT pid=2994 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 16:01:02 altwks1 kernel: audit: type=1101 audit(1646658062.030:98): pid=2994 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 16:01:02 altwks1 audit[2994]: USER_START pid=2994 uid=0 auid=0 ses=3 msg='op=PAM:session_open grantors=pam_tcb,pam_mktemp,pam_limits,pam_loginuid,pam_systemd acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 16:01:02 altwks1 audit[3008]: CRED_ACQ pid=3008 uid=0 auid=0 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 16:01:02 altwks1 crond[3008]: (root) CMD (run-parts /etc/cron.hourly)
+Mar  7 16:01:02 altwks1 audit[2994]: USER_END pid=2994 uid=0 auid=0 ses=3 msg='op=PAM:session_close grantors=? acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=failed'
+Mar  7 17:01:01 altwks1 audit[3043]: USER_AUTH pid=3043 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 17:01:01 altwks1 kernel: audit: type=1100 audit(1646661661.520:115): pid=3043 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 17:01:01 altwks1 audit[3043]: USER_ACCT pid=3043 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 17:01:01 altwks1 kernel: audit: type=1101 audit(1646661661.523:116): pid=3043 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 17:01:01 altwks1 audit[3043]: USER_START pid=3043 uid=0 auid=0 ses=5 msg='op=PAM:session_open grantors=pam_tcb,pam_mktemp,pam_limits,pam_loginuid,pam_systemd acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 17:01:01 altwks1 audit[3056]: CRED_ACQ pid=3056 uid=0 auid=0 ses=5 msg='op=PAM:setcred grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 17:01:01 altwks1 crond[3056]: (root) CMD (run-parts /etc/cron.hourly)
+Mar  7 17:01:01 altwks1 audit[3043]: USER_END pid=3043 uid=0 auid=0 ses=5 msg='op=PAM:session_close grantors=? acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=failed'
+Mar  7 18:01:02 altwks1 audit[3089]: USER_AUTH pid=3089 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 18:01:02 altwks1 kernel: audit: type=1100 audit(1646665262.006:133): pid=3089 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 18:01:02 altwks1 audit[3089]: USER_ACCT pid=3089 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 18:01:02 altwks1 kernel: audit: type=1101 audit(1646665262.007:134): pid=3089 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 18:01:02 altwks1 audit[3089]: USER_START pid=3089 uid=0 auid=0 ses=7 msg='op=PAM:session_open grantors=pam_tcb,pam_mktemp,pam_limits,pam_loginuid,pam_systemd acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 18:01:02 altwks1 audit[3102]: CRED_ACQ pid=3102 uid=0 auid=0 ses=7 msg='op=PAM:setcred grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Mar  7 18:01:02 altwks1 crond[3102]: (root) CMD (run-parts /etc/cron.hourly)
+Mar  7 18:01:02 altwks1 audit[3089]: USER_END pid=3089 uid=0 auid=0 ses=7 msg='op=PAM:session_close grantors=? acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=failed'
+Mar 22 18:17:35 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Mar 22 18:17:35 altwks1 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Mar 22 18:29:47 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Mar 22 18:29:47 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Mar 22 18:29:47 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Mar 22 18:29:47 altwks1 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Mar 22 18:30:06 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Mar 22 18:30:06 altwks1 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Mar 22 18:48:48 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Mar 22 18:48:48 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Mar 22 18:48:48 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Mar 22 18:48:48 altwks1 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 28 16:53:42 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Apr 28 16:53:42 altwks1 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 28 17:01:01 altwks1 audit[7717]: USER_AUTH pid=7717 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Apr 28 17:01:01 altwks1 kernel: audit: type=1100 audit(1651154461.475:241): pid=7717 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Apr 28 17:01:01 altwks1 audit[7717]: USER_ACCT pid=7717 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Apr 28 17:01:01 altwks1 kernel: audit: type=1101 audit(1651154461.477:242): pid=7717 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Apr 28 17:01:01 altwks1 audit[7717]: USER_START pid=7717 uid=0 auid=0 ses=7 msg='op=PAM:session_open grantors=pam_tcb,pam_mktemp,pam_limits,pam_loginuid,pam_systemd acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Apr 28 17:01:01 altwks1 audit[7729]: CRED_ACQ pid=7729 uid=0 auid=0 ses=7 msg='op=PAM:setcred grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+Apr 28 17:01:01 altwks1 crond[7729]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 28 17:01:01 altwks1 audit[7717]: USER_END pid=7717 uid=0 auid=0 ses=7 msg='op=PAM:session_close grantors=? acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=failed'
+May 17 11:57:23 altwks1 systemd[1]: Started Vixie Cron Daemon.
+May 17 11:57:23 altwks1 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+May 17 12:01:01 altwks1 audit[5561]: USER_AUTH pid=5561 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+May 17 12:01:01 altwks1 kernel: audit: type=1100 audit(1652778061.328:114): pid=5561 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+May 17 12:01:01 altwks1 audit[5561]: USER_ACCT pid=5561 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+May 17 12:01:01 altwks1 kernel: audit: type=1101 audit(1652778061.329:115): pid=5561 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_tcb acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+May 17 12:01:01 altwks1 audit[5561]: USER_START pid=5561 uid=0 auid=0 ses=5 msg='op=PAM:session_open grantors=pam_tcb,pam_mktemp,pam_limits,pam_loginuid,pam_systemd acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+May 17 12:01:01 altwks1 audit[5573]: CRED_ACQ pid=5573 uid=0 auid=0 ses=5 msg='op=PAM:setcred grantors=pam_rootok acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=success'
+May 17 12:01:01 altwks1 crond[5573]: (root) CMD (run-parts /etc/cron.hourly)
+May 17 12:01:01 altwks1 audit[5561]: USER_END pid=5561 uid=0 auid=0 ses=5 msg='op=PAM:session_close grantors=? acct="root" exe="/usr/sbin/crond" hostname=? addr=? terminal=? res=failed'
+May 17 12:32:33 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+May 17 12:32:33 altwks1 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+May 17 12:32:33 altwks1 systemd[1]: crond.service: Deactivated successfully.
+May 17 12:32:33 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Nov  3 19:02:08 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Nov  3 19:02:08 altwks1 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=crond comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Nov  3 19:23:03 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Nov  3 19:23:04 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Nov  3 19:23:04 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Nov  3 19:23:23 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Nov  3 19:26:35 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Nov  3 19:26:35 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Nov  3 19:26:35 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Dec 26 17:43:00 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Dec 26 18:01:02 altwks1 crond[3591]: (root) CMD (run-parts /etc/cron.hourly)
+Dec 26 18:37:51 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Dec 26 18:37:51 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Dec 26 18:37:51 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Dec 26 21:37:21 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Dec 26 22:01:02 altwks1 crond[6812]: (root) CMD (run-parts /etc/cron.hourly)
+Dec 26 22:38:21 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Dec 26 22:38:21 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Dec 26 22:38:21 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Feb  3 17:59:54 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Feb  3 17:59:54 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Feb  3 17:59:54 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Feb  3 17:59:54 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Feb  3 18:01:01 altwks1 crond[26817]: (root) CMD (run-parts /etc/cron.hourly)
+Feb  3 18:06:54 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Feb  3 20:39:14 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Feb  3 20:55:02 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Feb  3 20:55:02 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Feb  3 20:55:02 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Feb  3 20:55:02 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Feb  3 20:56:26 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Feb  3 20:56:26 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Feb  3 20:56:26 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Feb  3 20:56:26 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Feb  3 21:01:01 altwks1 crond[7837]: (root) CMD (run-parts /etc/cron.hourly)
+Feb  3 21:07:46 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Feb  3 21:07:46 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Feb  3 21:07:46 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Feb  3 21:07:46 altwks1 systemd[1]: Started Vixie Cron Daemon.
+Feb  3 21:11:41 altwks1 systemd[1]: Stopping Vixie Cron Daemon...
+Feb  3 21:11:41 altwks1 systemd[1]: crond.service: Deactivated successfully.
+Feb  3 21:11:41 altwks1 systemd[1]: Stopped Vixie Cron Daemon.
+Feb  3 21:11:41 altwks1 systemd[1]: Started Vixie Cron Daemon.

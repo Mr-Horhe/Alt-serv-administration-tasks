@@ -1,0 +1,10 @@
+altwks1.courses.alt
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:50:cf:01 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 84727sec preferred_lft 73927sec
+--
+3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:63:ef:7c brd ff:ff:ff:ff:ff:ff
+    inet 192.168.100.101/24 brd 192.168.100.255 scope global enp0s8
+       valid_lft forever preferred_lft forever

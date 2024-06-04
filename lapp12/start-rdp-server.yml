@@ -1,0 +1,14 @@
+---
+- hosts: test
+  roles:
+    - homework
+  vars:
+    users:
+      - name: newuser1
+        password: newPwd1
+      - name: newuser2
+        password: newPwd2
+      - name: newuser3
+        password: newPwd3
+      - name: newuser4
+        password: newPwd4
